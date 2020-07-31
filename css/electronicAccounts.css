@@ -1,0 +1,204 @@
+img {
+  width: 100%;
+}
+
+.floor_6_i {
+  margin-left: 0.8rem;
+}
+.floor_6_i > div:nth-child(1) {
+  margin-top: 0.76rem;
+  line-height: 0.31rem;
+  font-size: 0.24rem;
+  font-weight: bold;
+}
+.floor_6_i > div:nth-child(2) {
+  margin-top: 0.1rem;
+  line-height: 0.23rem;
+  font-size: 0.2rem;
+  font-family: Arial;
+  color: #a6a6aa;
+}
+.floor_6_i > div:nth-child(3),
+.floor_6_i > div:nth-child(4),
+.floor_6_i > div:nth-child(5) {
+  margin-top: 0.6rem;
+  line-height: 0.24rem;
+  font-size: 0.13rem;
+}
+.floor_6_i > div:nth-child(4),
+.floor_6_i > div:nth-child(5) {
+  margin-top: 0.72rem;
+}
+
+.floor_7_i {
+  position: relative;
+  padding-left: 0.36rem;
+  width: 12rem;
+  height: 3.1rem;
+  background-color: #f5f5f5;
+}
+.floor_7_i > div:nth-child(1) {
+  margin-top: 0.3rem;
+  line-height: 0.31rem;
+  font-size: 0.24rem;
+  font-weight: bold;
+}
+.floor_7_i > div:nth-child(2) {
+  margin-top: 0.1rem;
+  line-height: 0.23rem;
+  font-size: 0.2rem;
+  font-family: Arial;
+  color: #a6a6aa;
+}
+.floor_7_i > div:nth-child(3) {
+  margin-top: 0.3rem;
+  line-height: 0.24rem;
+  font-size: 0.13rem;
+}
+.floor_7_i > div:nth-child(4) {
+  position: absolute;
+  top: 1.96rem;
+  left: 50%;
+  transform: translate(-50%, 0);
+  display: flex;
+}
+.floor_7_i > div:nth-child(4) > div {
+  margin-left: 0.35rem;
+  padding: 0 0.21rem;
+  width: 2.5rem;
+  height: 3.1rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #fff;
+  box-shadow: 0px 3px 5px rgba(0, 0, 0, 0.16);
+}
+.floor_7_i > div:nth-child(4) > div:hover {
+  color: #1677FF;
+}
+.floor_7_i > div:nth-child(4) > div:nth-child(1) {
+  margin: 0;
+}
+.floor_7_i > div:nth-child(4) > div > div:nth-child(1) {
+  padding: 0.48rem 0 0.18rem;
+  width: 0.59rem;
+}
+.floor_7_i > div:nth-child(4) > div > div:nth-child(1) span {
+  font-size: .58rem;
+}
+.floor_7_i > div:nth-child(4) > div > div:nth-child(2) {
+  line-height: 0.26rem;
+  font-size: 0.2rem;
+}
+.floor_7_i > div:nth-child(4) > div > div:nth-child(3) {
+  padding-top: 0.29rem;
+  line-height: 0.24rem;
+  font-size: 0.13rem;
+}
+
+.floor_8_i {
+  display: flex;
+}
+.floor_8_i > div:nth-child(1) {
+  width: 3.18rem;
+  /* height: 6.23rem; */
+  background-color: #f5f5f5;
+  display: flex;
+  padding-top: 0.47rem;
+}
+.floor_8_i > div:nth-child(1) > div:nth-child(1) {
+  padding: 0 0.16rem 0 0.37rem;
+  line-height: 0.23rem;
+  font-size: 0.2rem;
+  position: relative;
+  writing-mode: tb-rl;
+}
+/* .floor_8_i >div:nth-child(1)>div:nth-child(1) i {
+  font-style: normal;
+  position: absolute;
+  top: .47rem;
+  left: .37rem;
+  transform: translate(-40%,175%) rotate(90deg);
+} */
+.floor_8_i > div:nth-child(1) > div:nth-child(2) {
+  line-height: 0.31rem;
+  font-size: 0.24rem;
+  font-weight: bold;
+  writing-mode: tb-rl;
+}
+.floor_8_i > div:nth-child(2) {
+  width: 8.82rem;
+}
+.floor_8_i > div:nth-child(2) > div {
+  width: 100%;
+}
+.floor_8_i > div:nth-child(2) > div > div:nth-child(1) {
+  padding: 0.42rem 0 0.28rem 0.32rem;
+  line-height: 0.26rem;
+  font-size: 0.2rem;
+}
+.floor_8_i > div:nth-child(2) > div > div:nth-child(2) {
+  padding-left: 0.32rem;
+  padding-bottom: 0.42rem;
+  line-height: 0.22rem;
+  font-size: 0.13rem;
+}
+.floor_8_i > div:nth-child(2) > div > div:nth-child(3) {
+  margin: 0 auto;
+  width: 7.08rem;
+  height: 1px;
+  background-color: #e6e6e6;
+}
+.floor_8_i > div:nth-child(2) > div:nth-last-child(1) > div:nth-child(3) {
+  margin: 0 auto;
+  width: 7.08rem;
+  height: 1px;
+  background-color: transparent;
+}
+
+.floor_9_i {
+  max-width: 12rem;
+  display: flex;
+  flex-wrap: wrap;
+}
+.floor_9_i > div {
+  margin-right: 0.66rem;
+  width: 2.5rem;
+}
+
+.floor_9_i > div:nth-child(4n) {
+  margin: 0;
+}
+.floor_9_i > div > div:nth-child(2) {
+  padding: 0.22rem 0 0.42rem;
+  line-height: 0.26rem;
+  text-align: center;
+  font-size: 0.2rem;
+}
+
+.floor_10_i {
+  padding: 0 0.65rem;
+  width: 12rem;
+  height: 1.5rem;
+  display: flex;
+  justify-content: space-between;
+  background-color: #F5F5F5;
+}
+.floor_10_i > div {
+  display: flex;
+  align-items: center;
+}
+.floor_10_i > div > div:nth-child(1) {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-right: .18rem;
+  width: 0.5rem;
+  height: 0.5rem;
+  border: 1px solid #1677ff;
+  border-radius: 50%;
+}
+.floor_10_i > div > div:nth-child(1) span {
+  color: #1677ff;
+  font-size: .28rem;
+}

@@ -12,7 +12,10 @@ article,
 section,
 footer,
 h1,
-dd {
+dd,
+input ,
+select,
+option {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
@@ -33,6 +36,12 @@ select:-webkit-autofill {
 }
 
 /* 按钮规范 */
+.btn_block {
+  width: 100%;
+  height: 100%;
+  border: none;
+  outline: none;
+}
 .btnRed,
 .btnRed:hover,
 .btnRed:active {
@@ -225,10 +234,10 @@ img.toImg {
 .flexD {
   flex-direction: column;
 }
-.js {
+.disflex_js {
   justify-content: start;
 }
-.jed {
+.disflex_jed {
   justify-content: flex-end;
 }
 .jc {

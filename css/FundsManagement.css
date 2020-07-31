@@ -1,0 +1,184 @@
+.FundsManagement_main img {
+  width: 100%;
+}
+ .floor_00_img {
+  position: relative;
+}
+ .floor_00_img .floor_00_text {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+ .floor_00_img .floor_00_text > div:nth-child(1) {
+  padding: 0.85rem 0 0.19rem;
+  line-height: 0.86rem;
+  color: #fff;
+  font-size: 0.65rem;
+  font-weight: bold;
+}
+ .floor_00_img .floor_00_text > div:nth-child(2) {
+  line-height: 0.31rem;
+  color: #fff;
+  font-size: 0.24rem;
+}
+ .floor_00_img .floor_00_text > div:nth-child(3) {
+  margin-top: 0.58rem;
+  height: 0.36rem;
+  width: 1.15rem;
+}
+ .floor_00_img .floor_00_text > div:nth-child(3) button {
+  background-color: #1677ff;
+  color: #fff;
+  font-size: 0.13rem;
+}
+/* .FundsManagement_main .floor_01_i, */
+/* .FundsManagement_main .floor_02, */
+/* .FundsManagement_main .floor_03,
+.FundsManagement_main .floor_04{ */
+/* .FundsManagement_main .floor_01 { */
+  /* display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+} */
+/* .FundsManagement_main .floor_01_i > div:nth-child(1) {
+  padding: 1rem 0 0.4rem;
+  line-height: 0.31rem;
+  font-size: 0.24rem;
+}
+.FundsManagement_main .floor_01_i > div:nth-child(2) {
+  height: 1px;
+  width: 0.3rem;
+  background-color: #373737;
+}
+.FundsManagement_main .floor_01_i > div:nth-child(3) {
+  padding: 0.7rem 0 0.4rem;
+  line-height: 0.24rem;
+  font-size: 0.13rem;
+} */
+/* .FundsManagement_main .floor_01 > div:nth-child(1) {
+  padding-top: 0.6rem;
+  line-height: 0.31rem;
+  font-size: 0.24rem;
+}
+.FundsManagement_main .floor_01 > div:nth-child(2) {
+  padding: 0.29rem 0 0.4rem;
+  line-height: 0.24rem;
+  font-size: 0.13rem;
+} */
+/* .FundsManagement_main .floor_02 {
+  margin: 0.8rem 0;
+  background-color: #eff6ff;
+} */
+/* .FundsManagement_main .floor_02 > div:nth-child(1), */
+/* .FundsManagement_main .floor_03 > div:nth-child(1), */
+/* .FundsManagement_main .floor_04 > div:nth-child(1) {
+  padding: 0.54rem 0 0.4rem;
+  line-height: 0.31rem;
+  font-size: 0.24rem;
+} */
+/* .FundsManagement_main .floor_02 > div:nth-child(2), */
+/* .FundsManagement_main .floor_03 > div:nth-child(2), */
+/* .FundsManagement_main .floor_04 > div:nth-child(2) {
+  height: 1px;
+  width: 0.3rem;
+  background-color: #373737;
+} */
+/* .FundsManagement_main .floor_02 > div:nth-child(3), */
+/* .FundsManagement_main .floor_03 > div:nth-child(3), */
+/* .FundsManagement_main .floor_04 > div:nth-child(3) {
+  padding: 0.74rem 0 1rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+} */
+/* .FundsManagement_main .floor_02 > div:nth-child(3) > div {
+  width: 3.8rem;
+  height: 4.42rem;
+  background-color: #fff;
+  border-radius: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.FundsManagement_main .floor_02 > div:nth-child(3) > div:nth-child(2) {
+  margin: 0 0.3rem;
+}
+.FundsManagement_main .floor_02 > div:nth-child(3) > div > div:nth-child(2) {
+  padding: 0.74rem 0 0.44rem;
+  line-height: 0.26rem;
+  font-size: 0.2rem;
+}
+.FundsManagement_main .floor_02 > div:nth-child(3) > div > div:nth-child(3) {
+  font-size: 0.13rem;
+} */
+/* .FundsManagement_main .floor_03 {
+  background-color: #f8f8f8;
+}
+
+.FundsManagement_main .floor_03 > div:nth-child(3) > div {
+  margin-left: 0.15rem;
+  width: 2.84rem;
+  height: 2.98rem;
+  background-color: #fff;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.FundsManagement_main .floor_03 > div:nth-child(3) > div:nth-child(1) {
+  margin: 0;
+}
+.FundsManagement_main .floor_03 > div:nth-child(3) > div > div:nth-child(1) {
+  height: 1.16rem;
+  display: flex;
+  align-items: flex-end;
+  padding-bottom: 0.15rem;
+}
+
+.FundsManagement_main .floor_03 > div:nth-child(3) > div > div:nth-child(2) {
+  padding: 0.24rem 0 0.25rem;
+  line-height: 0.26rem;
+  font-size: 0.2rem;
+}
+.FundsManagement_main .floor_03 > div:nth-child(3) > div > div:nth-child(3) {
+  padding: 0 0.18rem;
+  line-height: 0.24rem;
+  font-size: 0.13rem;
+} */
+
+/* .FundsManagement_main .floor_04 > div:nth-child(3) > div:nth-child(2n-1) {
+  width: 2.08rem;
+  height: 2.98rem;
+  background-color: #fff;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.FundsManagement_main .floor_04 > div:nth-child(3) > div:nth-child(2n) {
+  margin: 0 .62rem;
+  width: 1px;
+  height: 0.6rem;
+  background-color: #C6C6C6;
+}
+
+.FundsManagement_main .floor_04 > div:nth-child(3) > div > div:nth-child(1) {
+  height: 1.16rem;
+  display: flex;
+  align-items: flex-end;
+  padding-bottom: 0.15rem;
+}
+
+.FundsManagement_main .floor_04 > div:nth-child(3) > div > div:nth-child(2) {
+  padding: 0.24rem 0 0.25rem;
+  line-height: 0.26rem;
+  font-size: 0.2rem;
+}
+.FundsManagement_main .floor_04 > div:nth-child(3) > div > div:nth-child(3) {
+  line-height: 0.24rem;
+  font-size: 0.13rem;
+} */
